@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zero Capital | Ebooks & Knowledge</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <div class="logo">ZERO CAPITAL</div>
+            <div class="lang-switch">
+                <button id="btn-es" class="active">ES</button>
+                <button id="btn-en">EN</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 id="hero-title">Conocimiento digital sin barreras</h1>
+            <p id="hero-subtitle">Guías prácticas y estrategias para emprender desde cero.</p>
+            <a href="#catalogo" class="cta-button" id="hero-cta">Ver Catálogo</a>
+        </div>
+    </section>
+
+    <section id="catalogo" class="catalog">
+        <div class="container">
+            <h2 id="catalog-title">Nuestros Ebooks</h2>
+            
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all" id="filter-all">Todos</button>
+                <button class="filter-btn" data-filter="es">Español</button>
+                <button class="filter-btn" data-filter="en">English</button>
+            </div>
+
+            <div class="products-grid">
+                
+                <div class="product-card" data-lang="en">
+                    <div class="product-image">
+                        <img src="ebook-en-1.jpg" alt="100 No-Investment Business Ideas">
+                        <span class="badge">Premium Digital Edition</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>100 No-Investment Business Ideas</h3>
+                        <p>Your guide to start making money today from home.</p>
+                        <div class="price">$9.99 USD</div>
+                        <a href="#" class="buy-button" target="_blank">Buy Now</a>
+                    </div>
+                </div>
+
+                <div class="product-card" data-lang="es">
+                    <div class="product-image">
+                        <div class="placeholder-img">ES</div> 
+                    </div>
+                    <div class="product-info">
+                        <h3>Guía de Emprendimiento Cero</h3>
+                        <p>Aprende a validar tu idea sin gastar un centavo.</p>
+                        <div class="price">$9.99 USD</div>
+                        <a href="#" class="buy-button" target="_blank">Comprar Ahora</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Zero Capital. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Instagram</a>
+                <a href="#">TikTok</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
